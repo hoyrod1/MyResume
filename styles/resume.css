@@ -70,13 +70,6 @@ header {
   margin: 10px 0 50px 0;
 }
 
-/* .box2 {
-  color: rgb(161, 161, 161);
-  font-size: large;
-  font-weight: bold;
-  margin: 10px 0 50px 0;
-} */
-
 span {
   color: white;
 }
@@ -137,4 +130,86 @@ aside h3 {
 
 .button a:hover {
   color: rgb(253, 128, 3);
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: aliceblue;
+  }
+
+  nav {
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 5px 105px 5px 0;
+  }
+
+  nav img {
+    width: 50px;
+  }
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .box1 img {
+    width: 250px;
+    height: 300px;
+  }
+
+  .img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .resume-container {
+    height: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  aside ol {
+    text-align: center;
+  }
+
+  aside div {
+    width: 30%;
+    margin: auto;
+  }
+
+  aside div li {
+    text-align: left;
+  }
+
+  aside div h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    text-align: center;
+  }
+
+  .box2 {
+    text-align: center;
+  }
+
+  article h1,
+  article h3,
+  article h4,
+  article p {
+    text-align: center;
+  }
 }

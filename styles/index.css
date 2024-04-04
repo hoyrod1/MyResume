@@ -3,7 +3,7 @@
 }
 
 .index-container {
-  width: 600px;
+  max-width: 600px;
   height: 100px;
   margin: 500px auto;
   padding: 75px 0;
@@ -21,7 +21,7 @@ h2 {
 .index-image {
   background-color: transparent;
   position: absolute;
-  left: 45%;
+  left: 44%;
   top: 375px;
 }
 .index-image img {
